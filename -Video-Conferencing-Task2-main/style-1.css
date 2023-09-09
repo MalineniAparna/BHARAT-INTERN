@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container {
+    margin: 20px;
+}
+
+video {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+}
+    
+#chatContainer {
+    margin-top: 20px;
+}
+
+#chatMessages {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#chatInput {
+    margin-top: 10px;
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+}

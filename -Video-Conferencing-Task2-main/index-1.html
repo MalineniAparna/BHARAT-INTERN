@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Conferencing Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Video Conferencing Website</h1>
+
+    <div class="container">
+        <div class="video-container">
+            <h2>Your Video</h2>
+            <video id="localVideo" autoplay muted></video>
+        </div>
+        <div class="video-container">
+            <h2>Remote Video</h2>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+    </div>
+
+    <div id="chatContainer">
+        <h2>Chat</h2>
+        <div id="chatMessages"></div>
+        <input type="text" id="chatInput" placeholder="Type your message">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
